@@ -2,6 +2,8 @@
 
 와르르 서비스의 이용약관 및 개인정보 처리방침을 제공하는 정적 웹사이트입니다.
 
+https://waruru-policy.vercel.app/
+
 ## 구조
 
 ```text
