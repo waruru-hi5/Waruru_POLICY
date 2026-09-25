@@ -173,3 +173,79 @@ a {
     padding-top: 36px;
   }
 }
+
+@media (max-width: 767px) {
+  .site-header {
+    display: none;
+  }
+
+  body,
+  .policy,
+  .policy__meta,
+  .policy__intro,
+  .policy h2,
+  .policy h3,
+  .policy p,
+  .policy ol,
+  .policy ul,
+  .policy li,
+  .policy a,
+  .policy strong,
+  .policy__footer {
+    font-size: 10px;
+  }
+
+  body {
+    line-height: 1.5;
+  }
+
+  .policy {
+    padding: 12px 20px 40px;
+  }
+
+  .policy__meta {
+    margin: 0 0 8px;
+  }
+
+  .policy__intro {
+    margin: 0 0 14px;
+  }
+
+  .policy h2 {
+    margin: 18px 0 6px;
+    line-height: 1.5;
+  }
+
+  .policy h3 {
+    margin: 14px 0 5px;
+    line-height: 1.5;
+  }
+
+  .policy p {
+    margin: 0 0 6px;
+  }
+
+  .policy ol,
+  .policy ul {
+    margin: 4px 0 8px;
+    padding-left: 1.3rem;
+  }
+
+  .policy li {
+    margin: 2px 0;
+    padding-left: 1px;
+  }
+
+  .policy ol ol,
+  .policy ul ul,
+  .policy ol ul,
+  .policy ul ol {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .policy__footer {
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+}
